@@ -6,7 +6,10 @@
     "authors": [
         {
             "name": "John Brown",
-            "email": "john.brown@partnerweekly.com.com"
+            "email": "john.brown@partnerweekly.com"
+        },{
+            "name": "Joshua Copeland",
+            "email": "josh.copeland@sellingsource.com"
         }
     ],
     "autoload": {

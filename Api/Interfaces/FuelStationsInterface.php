@@ -5,7 +5,6 @@ use Guzzle\Http\ClientInterface;
 
 /**
  * Interface FuelStationsInterface
- * @package Api\Interfaces
  */
 interface FuelStationsInterface
 {

@@ -1,5 +1,10 @@
 # Coding Challenge
 
+Welcome to the Selling Source PHP test. This will test your understanding of PHP, OOP, BDD, Unit Testing, and
+consuming APIs. Please try to complete this test in under 4 hours and submit a pull request of your committed code.
+
+Please use the [http://www.php-fig.org/](http://www.php-fig.org/ "PSR") syntax coding style.
+
 ## Goals
 
 + Show adaptability with new languages/libraries
@@ -9,9 +14,9 @@
 ## Installing
 
 1. Fork this repository
-2. On a machine with php clone your copy of this repository.
+2. On a machine with php, clone your forked copy of this repository.
 3. Install [http://getcomposer.org](http://getcomposer.org/ "Composer")
-4. Run install on composer
+4. Install dependencies via composer
 ```
 composer install
 ```
