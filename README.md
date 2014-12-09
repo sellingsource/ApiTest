@@ -11,9 +11,9 @@
 1. Fork this repository
 2. On a machine with php clone your copy of this repository.
 3. Install [http://getcomposer.org](http://getcomposer.org/ "Composer")
-4. Run Update on composer
+4. Run install on composer
 ```
-composer update
+composer install
 ```
 
 ## Tests
