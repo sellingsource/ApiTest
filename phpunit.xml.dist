@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<phpunit
+        syntaxCheck                 = "true"
+        colors                      = "true"
+        convertErrorsToExceptions   = "true"
+        convertNoticesToExceptions  = "true"
+        convertWarningsToExceptions = "true"
+        strict                      = "true"
+        verbose                     = "true" >
+    <testsuites>
+        <testsuite name="ApiTest">
+            <directory>Tests</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory>Api</directory>
+        </whitelist>
+        <blacklist>
+            <directory>vendor</directory>
+        </blacklist>
+    </filter>
+</phpunit>
