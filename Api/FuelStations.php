@@ -167,12 +167,3 @@ class FuelStations implements Interfaces\FuelStationsInterface
         return $statCnt;
     }
 }
-/*
-$test = new FuelStations();
-$test->setClient(new \Guzzle\Http\Client());
-$test->setApiKey($TRENT_API_KEY);
-//$test->setApiKey("BAD_KEY");
-$test->setApiUrl('https://developer.nrel.gov/api/alt-fuel-stations/v1/nearest.json');
-$phones = $test->findPhoneNumbersByLocation('89132');
-print_r($phones);
-*/
